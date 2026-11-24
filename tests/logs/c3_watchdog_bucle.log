@@ -1,0 +1,18 @@
+ESP-ROM:esp32c3-api1-20210207
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+E (10234) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (10234) task_wdt:  - IDLE (CPU 0)
+E (10234) task_wdt: Tasks currently running:
+E (10234) task_wdt: CPU 0: loopTask
+ESP-ROM:esp32c3-api1-20210207
+rst:0x7 (TG0WDT_SYS_RST),boot:0xc (SPI_FAST_FLASH_BOOT)
+***ERROR*** A stack overflow in task sensorTask has been detected.
+Guru Meditation Error: Core  0 panic'ed (Store access fault). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x42001c3e  RA      : 0x42001c36  SP      : 0x3fc8f0f0  GP      : 0x3fc8b600
+MTVAL   : 0x00000000
+ESP-ROM:esp32c3-api1-20210207
+rst:0xc (RTC_SW_CPU_RST),boot:0xc (SPI_FAST_FLASH_BOOT)
+ESP-ROM:esp32c3-api1-20210207
+rst:0x7 (TG0WDT_SYS_RST),boot:0xc (SPI_FAST_FLASH_BOOT)

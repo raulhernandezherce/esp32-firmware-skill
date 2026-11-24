@@ -1,0 +1,21 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+mode:DIO, clock div:1
+entry 0x400805e4
+Iniciando sensores...
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d1a2c  PS      : 0x00060630  A0      : 0x800d2b5c  A1      : 0x3ffb1f80
+EXCVADDR: 0x00000000  LBEG    : 0x4000c2e0  LEND    : 0x4000c2f6  LCOUNT  : 0xffffffff
+
+Backtrace: 0x400d1a29:0x3ffb1f80 0x400d2b59:0x3ffb1fa0 0x40088b7d:0x3ffb1fc0
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)

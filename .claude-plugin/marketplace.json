@@ -1,0 +1,24 @@
+{
+  "name": "esp32-firmware-skill",
+  "owner": {
+    "name": "Raúl Hernández Herce",
+    "url": "https://github.com/raulhernandezherce"
+  },
+  "metadata": {
+    "description": "Skill de firmware ESP32 para Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "esp32-firmware",
+      "description": "Skill para que los agentes de IA escriban, revisen y depuren firmware ESP32/ESP32-C3: checklist de revisión y analizador de logs serie (Guru Meditation, brownout, watchdog, stack overflow, bucles de reinicio).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Raúl Hernández Herce",
+        "url": "https://github.com/raulhernandezherce"
+      },
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/raulhernandezherce/esp32-firmware-skill"
+    }
+  ]
+}

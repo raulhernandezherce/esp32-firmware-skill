@@ -1,0 +1,21 @@
+{
+  "name": "esp32-firmware",
+  "version": "0.1.0",
+  "description": "Skill para que los agentes de IA escriban, revisen y depuren firmware ESP32/ESP32-C3: checklist de revisión y analizador de logs serie (Guru Meditation, brownout, watchdog, stack overflow, bucles de reinicio).",
+  "author": {
+    "name": "Raúl Hernández Herce",
+    "url": "https://github.com/raulhernandezherce"
+  },
+  "homepage": "https://github.com/raulhernandezherce/esp32-firmware-skill",
+  "repository": "https://github.com/raulhernandezherce/esp32-firmware-skill",
+  "license": "MIT",
+  "keywords": [
+    "esp32",
+    "esp32-c3",
+    "firmware",
+    "embedded",
+    "esp-idf",
+    "arduino",
+    "debugging"
+  ]
+}

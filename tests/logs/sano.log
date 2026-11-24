@@ -1,0 +1,5 @@
+ESP-ROM:esp32c3-api1-20210207
+rst:0x1 (POWERON),boot:0xc (SPI_FAST_FLASH_BOOT)
+I (320) app: firmware v1.2 iniciado
+I (410) app: sensores listos
+I (512) app: lectura 1 ok
